@@ -6,6 +6,7 @@ group :development, :test do
   gem 'guard'
   gem 'guard-rspec'
   gem 'database_cleaner'
+  gem 'capybara'
 end
 
 # Use sqlite3 as the database for Active Record
