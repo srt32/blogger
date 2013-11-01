@@ -2,6 +2,10 @@ require 'spec_helper'
 
 describe Article do
 
+  before :each do
+    @article = Article.new
+  end
+
   it "is not valid without a title" do
     article = Article.new(title: nil)
     article.should_not be_valid
