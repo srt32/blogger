@@ -9,6 +9,7 @@ group :development, :test do
   gem 'capybara'
 end
 
+gem 'sorcery'
 gem 'paperclip'
 
 # Use sqlite3 as the database for Active Record
